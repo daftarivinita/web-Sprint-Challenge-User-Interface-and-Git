@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,11 +49,98 @@ table {
 
 * {
     box-sizing: border-box;
+    
+    
+   
+    
+   
 }
 
+
 html, body {
-    height: 100%;
+   
+    
+    max-height: 100%;
     font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+html {
+    width: 70%;
+    margin:0 auto;
+    background: black;
+    
+}
+body {
+    background:whitesmoke;
+    
+    border: 1px solid black;
+    
+   
+}
+/* added black border on top by adding another div */
+.whole {
+    width: 100%;
+    height: 12vh;
+    background:black;
+
+    
+}
+    
+
+  
+    
+
+/* style nav tab */
+nav {
+    width: 800px;
+    margin: 4% auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5% 0;
+    
+}
+ /* set logo with  */
+#logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    
+}
+/* adjust log image */
+#logo img {
+    width: 180%;
+    height: 20%;
+    padding-left: 5%;
+}
+.header {
+    width:85%;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.header a {
+    text-decoration: none;
+    color: black;
+    
+
+}
+/* add top image */
+.topimage {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+    height: 12vh;
+    background: url('../img/about-meeting.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    margin-bottom: 2%;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,12 +149,14 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
 p {
     line-height: 1.4;
 }
 
 .container {
     width: 800px;
+    
     margin: 0 auto;
 }
 
@@ -94,6 +183,37 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+/* setting box color */
+.box1{
+    background:teal;
+}
+.box2 {
+    background:gold;
+}
+.box3 {
+    background:cadetblue;
+}
+.box4 {
+    background:coral;
+}
+.box5 {
+    background:crimson;
+}
+.box6 {
+    background:forestgreen;
+}
+.box7 {
+    background:darkorchid;
+}
+.box8 {
+    background:hotpink;
+}
+.box9 {
+    background:indigo;
+}
+.box10 {
+    background:dodgerblue;
+}
 
 .middle-content .boxes {
     display: flex;
@@ -104,13 +224,16 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* setting background color of all the box */
+
+
 
 .bottom-content {
     display: flex;
@@ -132,9 +255,9 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -143,4 +266,69 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 1%;
 }
+
+/* styling of about web page starts here */
+.abouttopimage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+     height: 12vh;
+     background: url('../img/jumbo-about.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position:top;
+     margin-bottom: 2%;
+     
+ }
+ .headertext {
+     padding-left: 20px;
+     padding-bottom: 5%;
+
+ }
+ .imagecontainer {
+     padding-bottom: 5%;
+    border-top: 1px dashed black;
+
+    
+ }
+ .aboutimage1 {
+     margin: 7% 0 0 0;
+     padding-top: 20px;
+     
+     
+     font-size: 0.8rem;
+     padding: 5%;
+     border-bottom: 1px dashed black;
+ }
+ button {
+     width: 30%;
+     padding: 2% 0;
+     background: whitesmoke;
+     font-weight: bold;
+     border-radius: 10px;
+     margin:5% 0 0 0;
+     
+ }
+ .part1, .part2 {
+    display: flex;
+ }
+ .bottom {
+     padding-top: 5%;
+ }
+ 
+ 
+ 
+
+
+    
+    
+   
+
+
+ 
+     
+ 
